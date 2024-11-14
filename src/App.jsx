@@ -9,7 +9,7 @@ import ProfilePage from "./pages/ProfilePage";
 import AIFeatures from "./pages/AIFeatures";
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <main className="max-w-7xl mx-auto">
       <Navbar user={user} />
